@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thresholdWarningLevels schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/thresholdWarningLevels.xsd">
+	<!--!!As of 2013.02 the order of the warnings in this table are linked to the thresholds in the thresholds crossing table!!-->
+	<thresholdWarningLevel id="None" name="No threshold">
+		<color>white</color>
+		<iconName>blank.gif</iconName>
+		<historicOverlayIconName>blank.gif</historicOverlayIconName>
+		<forecastOverlayIconName>blank.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="default" name="No threshold exceeded">
+		<color>99CCFF</color>
+		<iconName>blank.gif</iconName>
+		<historicOverlayIconName>blank.gif</historicOverlayIconName>
+		<forecastOverlayIconName>blank.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="5YR" name="5 to 10 year AEP">
+		<color>009600</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="10YR" name="10 to 20 year AEP">
+		<color>00C8FF</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="20YR" name="20 to 50 year AEP">
+		<color>0000FF</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="50YR" name="50 to 100 year  AEP">
+		<color>FF9600</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="100YR" name="Greater than 100 year  AEP">
+		<color>FF0000</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Minor Flooding" name="Minor Flooding">
+		<color>009600</color>
+		<iconName>warninglevel_none.gif</iconName>
+		<historicOverlayIconName>warninglevel_minor.gif</historicOverlayIconName>
+		<forecastOverlayIconName>forecastwarninglevel_minor2.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Moderate Flooding" name="Moderate Flooding">
+		<color>FF9600</color>
+		<iconName>warninglevel_none.gif</iconName>
+		<historicOverlayIconName>warninglevel_mod.gif</historicOverlayIconName>
+		<forecastOverlayIconName>forecastwarninglevel_moderate2.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Major Flooding" name="Major Flooding">
+		<color>FF0000</color>
+		<iconName>warninglevel_none.gif</iconName>
+		<historicOverlayIconName>warninglevel_major.gif</historicOverlayIconName>
+		<forecastOverlayIconName>forecastwarninglevel_major2.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Info 1" name="Info 1">
+		<color>99CCFF</color>
+		<iconName>blank.gif</iconName>
+		<historicOverlayIconName>blank.gif</historicOverlayIconName>
+		<forecastOverlayIconName>blank.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Info 2" name="Info 2">
+		<color>99CCFF</color>
+		<iconName>blank.gif</iconName>
+		<historicOverlayIconName>blank.gif</historicOverlayIconName>
+		<forecastOverlayIconName>blank.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Info 3" name="Info 3">
+		<color>99CCFF</color>
+		<iconName>blank.gif</iconName>
+		<historicOverlayIconName>blank.gif</historicOverlayIconName>
+		<forecastOverlayIconName>blank.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Crest Level" name="Crest Level">
+		<color>99CCFF</color>
+		<iconName>blank.gif</iconName>
+		<historicOverlayIconName>blank.gif</historicOverlayIconName>
+		<forecastOverlayIconName>blank.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="VBF at FSL" name="VBF at FSL">
+		<color>99CCFF</color>
+		<iconName>blank.gif</iconName>
+		<historicOverlayIconName>blank.gif</historicOverlayIconName>
+		<forecastOverlayIconName>blank.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Floor Level" name="Floor Level">
+		<color>FF0000</color>
+		<iconName>warninglevel_none.gif</iconName>
+		<historicOverlayIconName>warninglevel_major.gif</historicOverlayIconName>
+		<forecastOverlayIconName>forecastwarninglevel_major2.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Road Flooded" name="Road Flooded">
+		<color>FF0000</color>
+		<iconName>flood.png</iconName>
+		<historicOverlayIconName>flood.png</historicOverlayIconName>
+		<forecastOverlayIconName>flood.png</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Rising" name="Rising">
+		<color>antique white1</color>
+		<iconName>WL.gif</iconName>
+		<historicOverlayIconName>forecastwarninglevel5.gif</historicOverlayIconName>
+		<forecastOverlayIconName>forecastwarninglevel5.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Falling" name="Falling">
+		<color>FF0000</color>
+		<iconName>WL.gif</iconName>
+		<historicOverlayIconName>forecastwarninglevel1.gif</historicOverlayIconName>
+		<forecastOverlayIconName>forecastwarninglevel1.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="Steady" name="Steady">
+		<color>FF0000</color>
+		<iconName>WL.gif</iconName>
+		<historicOverlayIconName>forecastwarninglevel3.gif</historicOverlayIconName>
+		<forecastOverlayIconName>forecastwarninglevel3.gif</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<!--test-->
+	<thresholdWarningLevel id="IFD_1Y_6m" name="IFD_1Y_6m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_1Y_15m" name="IFD_1Y_15m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_1Y_30m" name="IFD_1Y_30m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_1Y_1h" name="IFD_1Y_1h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_1Y_3h" name="IFD_1Y_3h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_1Y_6h" name="IFD_1Y_6h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_1Y_12h" name="IFD_1Y_12h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_1Y_24h" name="IFD_1Y_24h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_1Y_48h" name="IFD_1Y_48h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_1Y_72h" name="IFD_1Y_72h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_2Y_6m" name="IFD_2Y_6m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_2Y_15m" name="IFD_2Y_15m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_2Y_30m" name="IFD_2Y_30m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_2Y_1h" name="IFD_2Y_1h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_2Y_3h" name="IFD_2Y_3h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_2Y_6h" name="IFD_2Y_6h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_2Y_12h" name="IFD_2Y_12h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_2Y_24h" name="IFD_2Y_24h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_2Y_48h" name="IFD_2Y_48h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_2Y_72h" name="IFD_2Y_72h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_5Y_6m" name="IFD_5Y_6m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_5Y_15m" name="IFD_5Y_15m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_5Y_30m" name="IFD_5Y_30m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_5Y_1h" name="IFD_5Y_1h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_5Y_3h" name="IFD_5Y_3h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_5Y_6h" name="IFD_5Y_6h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_5Y_12h" name="IFD_5Y_12h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_5Y_24h" name="IFD_5Y_24h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_5Y_48h" name="IFD_5Y_48h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_5Y_72h" name="IFD_5Y_72h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_10Y_6m" name="IFD_10Y_6m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_10Y_15m" name="IFD_10Y_15m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_10Y_30m" name="IFD_10Y_30m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_10Y_1h" name="IFD_10Y_1h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_10Y_3h" name="IFD_10Y_3h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_10Y_6h" name="IFD_10Y_6h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_10Y_12h" name="IFD_10Y_12h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_10Y_24h" name="IFD_10Y_24h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_10Y_48h" name="IFD_10Y_48h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_10Y_72h" name="IFD_10Y_72h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_20Y_6m" name="IFD_20Y_6m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_20Y_15m" name="IFD_20Y_15m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_20Y_30m" name="IFD_20Y_30m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_20Y_1h" name="IFD_20Y_1h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_20Y_3h" name="IFD_20Y_3h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_20Y_6h" name="IFD_20Y_6h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_20Y_12h" name="IFD_20Y_12h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_20Y_24h" name="IFD_20Y_24h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_20Y_48h" name="IFD_20Y_48h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_20Y_72h" name="IFD_20Y_72h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_50Y_6m" name="IFD_50Y_6m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_50Y_15m" name="IFD_50Y_15m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_50Y_30m" name="IFD_50Y_30m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_50Y_1h" name="IFD_50Y_1h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_50Y_3h" name="IFD_50Y_3h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_50Y_6h" name="IFD_50Y_6h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_50Y_12h" name="IFD_50Y_12h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_50Y_24h" name="IFD_50Y_24h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_50Y_48h" name="IFD_50Y_48h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_50Y_72h" name="IFD_50Y_72h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_100Y_6m" name="IFD_100Y_6m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_100Y_15m" name="IFD_100Y_15m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_100Y_30m" name="IFD_100Y_30m">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_100Y_1h" name="IFD_100Y_1h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_100Y_3h" name="IFD_100Y_3h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_100Y_6h" name="IFD_100Y_6h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_100Y_12h" name="IFD_100Y_12h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_100Y_24h" name="IFD_100Y_24h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_100Y_48h" name="IFD_100Y_48h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+	<thresholdWarningLevel id="IFD_100Y_72h" name="IFD_100Y_72h">
+		<color>FFFF00</color>
+		<iconName>rain_IFD_thresh.gif</iconName>
+		<historicOverlayIconName>rain_IFD_thresh</historicOverlayIconName>
+		<forecastOverlayIconName>rain_IFD_thresh</forecastOverlayIconName>
+	</thresholdWarningLevel>
+</thresholdWarningLevels>

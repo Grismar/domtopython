@@ -1,24 +1,33 @@
 
 import domtopython
 
-doc = domtopython.DOMDocument("test")
 
-def nElements (n):
-    for i in range(n):
-        doc.data(str(i))
+xml = domtopython.dom_to_python('fews.xml')
+print(xml)
+exec(xml)
 
-doc.first(
-    "basic content")
+'''
+
+doc = domtopython.DOMDocument()
+
+with doc.test (xmlns='test'):
+
+    def nElements (n):
+        for i in range(n):
+            doc.data(str(i))
+
+    doc.first(
+        "basic content")
+
+    with doc.second(
+            "content", " more"):
+        with doc.secondfirstsub(name="some name")(
+                "hello", " world"):
+            nElements(1)
+            nElements(2)
+            doc.last()
+        nElements(3)
 
 doc.print_xml()
 
-with doc.second(
-        "content", " more"):
-    with doc.secondfirstsub(name="some name")(
-            "hello", " world"):
-        nElements(1)
-        nElements(2)
-        doc.last()
-    nElements(3)
-
-doc.print_xml()
+'''

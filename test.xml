@@ -1,0 +1,12 @@
+<test>
+    <first a="1" b="2">
+        basic content
+    </first>
+    <second>
+        <!-- test //-->
+        more content
+        <sub>
+            <data>information</data>
+        </sub>
+    </second>
+</test>
